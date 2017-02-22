@@ -4,3 +4,4 @@ weechat/weechat_fifo_*
 weechat/irc.conf
 weechat/relay.conf
 weechat/ssl/*
+weechat/fifo.conf
