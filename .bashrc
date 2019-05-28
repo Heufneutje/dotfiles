@@ -121,6 +121,12 @@ if [ "$TERM" == "xterm" ]; then
 fi
 
 # Some things I use a lot.
-alias swee="screen -S weechat weechat"
-alias wee="screen -r weechat"
+alias tmuxsetup='~/tmux/tmuxsetup.sh'
+alias att='tmux attach'
 alias fuck='sudo $(history -p \!\!)'
+
+export LANG=en_US.UTF-8
+export TZ='Europe/Amsterdam'
+
+# added by travis gem
+[ -f /home/stefan/.travis/travis.sh ] && source /home/stefan/.travis/travis.sh
